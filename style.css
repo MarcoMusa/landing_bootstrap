@@ -1,0 +1,54 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --blu-dark: #112d58;
+  --info: #3eb8f4;
+  --warning: #ffa024;
+  --radius: 20px;
+}
+
+body {
+  font-family: var(--font-family);
+  background-image: url("https://picsum.photos/1920/1080");
+}
+
+.text-warning {
+  color: var(--warning);
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+#nav-jobest .nav-link {
+  color: var(--blu-dark);
+}
+
+#nav-jobest {
+  background: linear-gradient(
+    180deg,
+    rgba(100, 100, 100, 0.2),
+    rgba(100, 100, 100, 0.2)
+  );
+  backdrop-filter: blur(10px);
+}
+
+.btn-dark-blu {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0)
+    ),
+    var(--blu-dark);
+  color: white;
+  transition: all 0.5;
+}
+
+.btn-dark-blu:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0)
+    ),
+    var(--blu-dark);
+  color: white;
+}
