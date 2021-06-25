@@ -85,3 +85,26 @@ body {
 .btn-search:hover {
   color: white;
 }
+
+.card-jobs {
+  padding: 3rem 3rem;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 10px 15px 13px #4f4f4f;
+  box-shadow: 0px 10px 15px 13px #4f4f4f;
+  transition: all 0.5s;
+}
+
+.card-jobs:hover {
+  background-color: #53acf8;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 4px #4f4f4f;
+  box-shadow: 0px 10px 13px -7px #000000, 0px 0px 15px 4px #4f4f4f;
+}
+
+.card-jobs:hover h3,
+.card-jobs:hover p {
+  color: white;
+}
+
+.card-jobs .icon {
+  height: 120px;
+}
