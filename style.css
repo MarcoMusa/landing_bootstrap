@@ -116,8 +116,9 @@ body {
 
 .user-profile {
   position: relative;
-  top: -40%;
+  top: -30%;
   width: 70%;
+  left: 15%;
 }
 
 review-card {
