@@ -72,3 +72,9 @@ body {
   left: 0px;
   bottom: 0px;
 }
+
+.btn-search {
+  position: absolute !important;
+  background-color: var(--warning);
+  color: white;
+}
