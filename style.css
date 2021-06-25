@@ -75,6 +75,8 @@ body {
 
 .btn-search {
   position: absolute !important;
+  padding: 0.4rem 0.8rem !important;
   background-color: var(--warning);
   color: white;
+  right: 0px;
 }
