@@ -79,4 +79,9 @@ body {
   background-color: var(--warning);
   color: white;
   right: 0px;
+  z-index: 1000;
+}
+
+.btn-search:hover {
+  color: white;
 }
