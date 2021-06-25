@@ -4,15 +4,23 @@
   --info: #3eb8f4;
   --warning: #ffa024;
   --radius: 20px;
+  --grigio: #7d7987;
 }
 
 body {
   font-family: var(--font-family);
-  background-image: url("https://picsum.photos/1920/1080");
 }
 
 .text-warning {
   color: var(--warning);
+}
+
+.text-darkblu {
+  color: var(--blu-dark);
+}
+
+.text-grigio {
+  color: var(--grigio);
 }
 
 .fw-medium {
@@ -51,4 +59,13 @@ body {
     ),
     var(--blu-dark);
   color: white;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("./img/hero-bg.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
