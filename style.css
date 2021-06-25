@@ -108,3 +108,8 @@ body {
 .card-jobs .icon {
   height: 120px;
 }
+
+.carousel-control-prev {
+  right: 20px !important;
+  left: auto !important;
+}
