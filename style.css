@@ -113,3 +113,15 @@ body {
   right: 20px !important;
   left: auto !important;
 }
+
+.user-profile {
+  position: relative;
+  top: -40%;
+  width: 70%;
+}
+
+review-card {
+  background-color: white;
+  position: relative;
+  height: 400px;
+}
